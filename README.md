@@ -1,3 +1,5 @@
+[![Accessibility Check](https://github.com/T1z3n/The-Origins-I-HTML/actions/workflows/Accessibility.yml/badge.svg)](https://github.com/T1z3n/The-Origins-I-HTML/actions/workflows/Accessibility.yml)
+
 # Usage
 This Repo is a Part for the [Codedex HTML final Project Part](https://www.codedex.io/html/final-project).
 The Goal is to create an Restaurant Menu website.
