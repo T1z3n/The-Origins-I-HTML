@@ -1,0 +1,85 @@
+body {
+    background-color: #332D2D;
+    color: #F3C4C3;
+    text-align: center;
+    font-family: "Open_Sans";
+    height: 100%;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("noodlesoup.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+a {
+    color: #B12926;
+    text-decoration: none;
+}
+
+
+
+// Deticated Settings only for the nav-bar
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+// End Nav-bar
+
+hr {
+   border: 1px solid #863533;
+}
+
+textarea {
+    background-color: #863533;
+    color: #F3C4C3;
+
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #332D2D;
+
+}
+
+@font-face {
+    font-family: "Open_Sans";
+    src:
+    local("Open_Sans"),
+    url("../Font/Open_Sans/Open_Sans_reg.ttf") format("truetype");
+}
+

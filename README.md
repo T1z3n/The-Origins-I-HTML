@@ -31,8 +31,9 @@ For this Use-case, I usin' the "Open Sans"-Font. I provide the Language-pack by 
 
 #### Pictures
 
-All Pictures are downloaded from [Pixabay](https://pixabay.com) under the [Content licence](https://pixabay.com/service/license-summary/).
+All* Pictures are downloaded from [Pixabay](https://pixabay.com) under the [Content licence](https://pixabay.com/service/license-summary/).
 Click on the Source-Name below to get to the Source:
 
 - [noodlesoup.png](https://pixabay.com/photos/noodles-noodle-soup-8021415/)
-- 
+- *Exeption: [banh](https://media.istockphoto.com/id/484632218/de/foto/pad-thai-mit-garnelen-thail%C3%A4ndischen-spezialit%C3%A4ten.jpg?s=2048x2048&w=is&k=20&c=CcXAq8xactTCugvlBd7O0P7Lx_Ux51icmf-VCWqFp8s=) by iStickphoto
+- *Exeption: [Wonton](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Wonton_1.JPG/220px-Wonton_1.JPG) by Wikimedia
