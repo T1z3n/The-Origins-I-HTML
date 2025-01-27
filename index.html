@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<body>
+<link rel="stylesheet" href="src/Script/Stylesheet.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> ♨️ | Home </title>
+</body>
+
+<head>
+    <!-- Bug: The Picture is only loading when a div is set.-->
+    <div class="hero-image"><br><h1>♨️ | Onzen noodles</h1><br></div>
+    <hr>
+
+    <div>
+        <ul>
+            <li><a href="#Menu">Menu</a></li>
+            <li><a href="#Order-form">Place you Order</a></li>
+        </ul>
+    </div>
+<br>
+
+
+    <h2 a id="Menu">Menu</h2>
+
+    <article>
+        <img src="src/img/spring-rolls.jpg" alt="Spring rolls, Chinese cuisine, Chinese food image" width="500px"></img>
+        <h3>1A. 6 KLEINE FRÜHLINGSROLLEN MIT GEMÜSEFÜLLUNG</h3>
+        <p>serviert mit einer süßlichen Chili Soße.<br>
+        <i>6 spring rolls filled with vegetables served with homemade sweet chili sauce.</i></p>
+    </article>
+    <article>
+        <img src="src/img/banh.jpg" alt="Spring rolls, Chinese cuisine, Chinese food image" width="500px"></img>
+        <h3>2. BANH RAU (7 Stück)</h3>
+        <p>knusprige asiatische Maultaschen, gefüllt mit Gemüse, Glasnudeln und Knoblauchblättern,<br>
+        serviert mit einer hausgemachten Hot Chili Soße.<br>
+        <i>crispy Dumplings filled with vegetables, glas noodles and garlic leaves, served with homemade hot chili sauce.</i></p>
+    </article>
+    <article>
+        <img src="src/img/wonton.jpeg" alt="Spring rolls, Chinese cuisine, Chinese food image" width="500px"></img>
+        <h3>8A. MAMAS WAN TANS</h3>
+        <p>7 Wan Tans, gefüllt mit Hähnchen, Schnittlauch, Pilzen, Glasnudeln und Maniokstreifen in süßer Sojasoße, Reisessig und Chili Öl.<br>
+        <i>Wan tans filled with chicken, chive, mushrooms, glasnoodles and cassavastripes, served in sweet soy sauce, rice vinegar and chili oil.</i></p>
+    </article>
+
+    <h2 id="Order-form">Place Your Order</h2>
+    <form action="">
+        <label for="email">Enter your email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <input type="number" min="0" max="15" step="1">
+        <label for="1A">1A | FRÜHLINGSROLLEN</label><br>
+        <input type="number" min="0" max="15" step="1">
+        <label for="2">2 | BANH RAU</label><br>
+        <input type="number" min="0" max="15" step="1">
+        <label for="8A">8A | MAMAS WAN TANS</label><br><br>
+
+        <p>Add an optional Extra:</p>
+
+        <form action="">
+        <label for="Extra">Choose a Extra:</label>
+        <select name="Extra" id="Extra">
+            <option value="chop">ChopStick</option>
+            <option value="Sticker">Sticker</option>
+            <option value="Headpat">Headpat (10 sec)</option>
+            <option value="none">None</option>
+        </select>
+        <br><p>special requests:</p>
+        <textarea></textarea><br>
+        <input type="submit" value="Submit">
+        </form>
+</head>
+
+<footer>
+<p>Made with love by <a href="https://www.codedex.io/@TIZEN">@TIZEN</a></p>
+</footer>
+</html>
